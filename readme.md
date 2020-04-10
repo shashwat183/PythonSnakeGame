@@ -73,7 +73,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 * **[Shashwat Pragya](https://github.com/shashwat183)**
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/shashwat183/PythonSnakeGame/graphs/contributors) who participated in this project.
 
 ## License
 
