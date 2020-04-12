@@ -51,13 +51,13 @@ class Snake(Sprite):
         if pressed_keys[K_UP]:
             if self.body[0][2] != DOWN:
                 self.turns.append((UP, self.body[0][1].center))
-        if pressed_keys[K_DOWN]:
+        elif pressed_keys[K_DOWN]:
             if self.body[0][2] != UP:
                 self.turns.append((DOWN, self.body[0][1].center))
-        if pressed_keys[K_LEFT]:
+        elif pressed_keys[K_LEFT]:
             if self.body[0][2] != RIGHT:
                 self.turns.append((LEFT, self.body[0][1].center))
-        if pressed_keys[K_RIGHT]:
+        elif pressed_keys[K_RIGHT]:
             if self.body[0][2] != LEFT:
                 self.turns.append((RIGHT, self.body[0][1].center))
 
